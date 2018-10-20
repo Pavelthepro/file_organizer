@@ -16,11 +16,20 @@ def main():
     source_dir = "G:/"
     target_dir = "F:/"
 
+    # Check that directires exist and are accessible 
+    #check_directory(source_dir)
+    #check_directory(target_dir)
     logger.info('Source Directory is: %s' % (source_dir))
     logger.info('Target Directory is: %s' % (target_dir))
 
     print( os.listdir(source_dir))
     print (os.listdir(target_dir))
+
+
+# def check_directory(directory):
+#     try:
+
+#     except:
 
 
 if __name__== "__main__":
